@@ -1,0 +1,71 @@
+/***********************body setup**********************/
+
+body {
+	background-color: #FFDFDD;
+}
+
+.container {
+	max-width: 1000px;
+}
+
+/***********************header setup**********************/
+
+@font-face {
+	font-family: "cupcake font";
+	src: url( ../fonts/cupcake-party/CupcakePartyDemo.ttf) format("truetype");
+}
+
+.cupcake {
+	font-family: "cupcake font", verdana, tahoma;
+	font-size: 100px;
+	text-shadow: 6px 7px #FBBBB9, 0px 3px 3px white;
+}
+
+/***********************navigation bar**********************/
+
+.navbar {
+	background-color: #FBBBB9;
+	font-size: 20px;
+}
+
+/***********************content setup***********************/
+
+.img-responsive {
+	margin: 0 auto;
+	background-color: white;
+	box-shadow: 0px 4px 8px 0 rgba(0,0,0,0.2), 0px 6px 20px 0px rgba(0, 0, 0, 0.19);
+	border-radius: 15px;
+	border: 3px solid #FBBBB9;
+	padding: 5px;
+}
+
+p {
+	margin-top: 20px;
+}
+.description {
+	font-family: verdana, tahoma;
+	margin-top: 20px;
+}
+
+.products_wrapper {
+	width: 50%;
+	margin: 0 auto;
+	border: solid;
+}
+
+.products p {
+	text-indent: 10%;
+}
+
+.products {
+	list-style-type: none;
+	line-height: 22px;
+}
+
+.products>li {
+	display: flex;
+}
+
+.done, .quantity, .ingridients {
+	flex-grow: 1;
+}

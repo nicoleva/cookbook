@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>My CookBook</title>
+
+    <!-- Bootstrap -->
+    <link href="../css/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="MyRecipes/css/js/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="MyRecipes/css/js/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- css stylesheet -->
+    <link href="../css/stylesheet-main.css" rel="stylesheet">
+
+  </head>
+  <body>
+    <div class="container">
+
+      <div class="page-header">
+        <h1 class="cupcake">My CookBook collection</h1>
+      </div>
+
+<!--*************************navigation bar*******************
+**************************************************************
+**************************************************************-->
+      <nav class="navbar navbar-default navbar-static-top">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <!--when shrinking the window, this is the button that "drops down" all the possible navigation pages instead of them "breaking" into other rows-->
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="../html/main.html">home</a>
+          </div>
+          <!--meal type navigatio bar-->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Meal Type <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Breakfast</a></li>
+                  <li><a href="#">Entree</a></li>
+                  <li><a href="#">Main</a></li>
+                  <li><a href="#">Dessert</a></li>
+                </ul>
+              </li>
+            </ul>
+            <!--search bar for recipes-->
+            <form class="navbar-form navbar-right" role="search">
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="search recipes here!">
+              </div>
+              <button type="submit" class="btn btn-default">search</button>
+            </form>
+            <ul class="nav navbar-nav navbar-left">
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">holidays and events! <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  
+                  <li><a href="#">Rosh Hashana</a></li>
+                  <li><a href="#">Pesah</a></li>
+                  <li><a href="#">shavuot</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="#">Birthday</a></li>
+                </ul>
+              </li>
+              <li><a href="#">tips for good nutrition</a></li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
+
+      <div class="jumbotron">
+        <p class="description">My private collection of tasty and delicious recipes!</p>
+      </div>
+    </div>
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="../css/js/bootstrap.min.js"></script>
+  </body>
+</html>

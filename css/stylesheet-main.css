@@ -1,0 +1,37 @@
+/***********************body setup**********************/
+
+body {
+	background-color: #FFDFDD;
+}
+
+.container {
+	max-width: 1000px;
+}
+
+/***********************header setup**********************/
+
+@font-face {
+	font-family: "cupcake font";
+	src: url( ../fonts/cupcake-party/CupcakePartyDemo.ttf) format("truetype");
+}
+
+.cupcake {
+	font-family: "cupcake font", verdana, tahoma;
+	font-size: 100px;
+	text-shadow: 6px 7px #FBBBB9, 0px 3px 3px white;
+}
+
+
+
+/***********************navigation bar**********************/
+
+.navbar {
+	background-color: #FBBBB9;
+	font-size: 20px;
+}
+
+/***********************content setup***********************/
+
+.description {
+	font-family: "handwrite1", verdana, tahoma;
+}
