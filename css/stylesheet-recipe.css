@@ -1,11 +1,12 @@
 /***********************body setup**********************/
 
 body {
-	background-color: #FFDFDD;
+	background-color: #FBBBB9;
 }
 
 .container {
 	max-width: 1000px;
+	background-color: #FFDFDD;
 }
 
 /***********************header setup**********************/
@@ -31,30 +32,40 @@ body {
 /***********************content setup***********************/
 
 .img-responsive {
-	margin: 0 auto;
+	margin: 10px auto;
 	background-color: white;
-	box-shadow: 0px 4px 8px 0 rgba(0,0,0,0.2), 0px 6px 20px 0px rgba(0, 0, 0, 0.19);
-	border-radius: 15px;
-	border: 3px solid #FBBBB9;
 	padding: 5px;
 }
 
-p {
-	margin-top: 20px;
+.img-responsive, .products_wrapper {
+	box-shadow: 0px 4px 8px 0 rgba(0,0,0,0.2), 0px 6px 20px 0px rgba(0, 0, 0, 0.19);
+	border-radius: 15px;
+	border: 3px solid #FBBBB9;
 }
+
+.recipe_wrapper {
+	border-bottom: 3px solid #FBBBB9;
+	display: flex;
+	flex-direction: row;
+	align-items: stretch;
+	align-content: flex-end;
+	justify-content: space-between;
+}
+
 .description {
 	font-family: verdana, tahoma;
-	margin-top: 20px;
+	border-bottom: 3px solid #FBBBB9;
+	padding-bottom: 10px;
+	padding: 10px 5%;
 }
 
-.products_wrapper {
-	width: 50%;
-	margin: 0 auto;
-	border: solid;
+.directions, .products_wrapper {
+	margin: 20px 5px;
+	width: 45%;
 }
 
-.products p {
-	text-indent: 10%;
+.products_wrapper p {
+	text-indent: 5%;
 }
 
 .products {
@@ -67,5 +78,13 @@ p {
 }
 
 .done, .quantity, .ingridients {
-	flex-grow: 1;
+	flex-grow: 0.1;
+	justify-content: flex-start;
+	width: 400px;
 }
+
+.done {
+	width: 100px;
+}
+
+
